@@ -1,3 +1,9 @@
-h1 {
+#gametitle {
+    margin-top: 25px;
     text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url(../images/dark-paths.png);
 }
