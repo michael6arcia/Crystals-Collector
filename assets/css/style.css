@@ -1,9 +1,58 @@
 #gametitle {
     margin-top: 25px;
+    margin-bottom: 25px;
     text-align: center;
     color: white;
+    font-family: 'Righteous', cursive;
 }
 
 body {
     background-image: url(../images/dark-paths.png);
+}
+
+.boxheader {
+    text-decoration: underline;
+}
+
+#gamerules {
+    padding-top: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#statsbox {
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    text-align: center;
+    margin-left: 15px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#scorespace {
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#gemspace {
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+    text-align: center;
+    margin-left: 35px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
