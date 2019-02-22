@@ -19,12 +19,25 @@ $(document).ready(function () {
 
     $("#lossCount").text(lossCount);
 
-    // Click functions for gems.
+    // Random number assignment for gems.
 
     for (var i = 0; i < crystals.length; i++) {
-        i = Math.floor(Math.random() * 12) + 1;
+        crystals[i] = Math.floor(Math.random() * 12) + 1;
     }
 
+    // Click function assignment for gems.
+
+    // Winning Conditional
+
+    if (totalScore == startNum) {
+
+    }
+
+    // Losing Conditional
+
+    if (totalScore >= startNum) {
+
+    }
 
 
 
