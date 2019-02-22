@@ -1,5 +1,7 @@
-var crystals = ["red", "blue", "green", "purple"];
-var score = 0;
+var crystals = ["red", "blue", "yellow", "purple"];
+
+var startNum
+var totalScore = 0;
 
 var winCount = 0;
 var lossCount = 0;
