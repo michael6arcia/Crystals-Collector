@@ -30,13 +30,13 @@ $(document).ready(function () {
     // Winning Conditional
 
     if (totalScore == startNum) {
-
+        winCount++;
     }
 
     // Losing Conditional
 
     if (totalScore >= startNum) {
-
+        lossCount++;
     }
 
 
